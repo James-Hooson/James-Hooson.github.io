@@ -1,0 +1,100 @@
+/*style*/
+.bold {
+  font-weight: 800;
+}
+
+.lora {
+  font-family: 'Lora', serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: rgb(29, 23, 121);
+}
+body {
+  background-image: url('https://www.datocms-assets.com/132613/1724440968-creditgreenpeace-greatbearrainforest-spruceinterior-2.jpg?w=1200');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+p {
+  font-family: 'Lora', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
+p {
+  text-align: center;
+}
+
+.fancy-box {
+  background: linear-gradient(135deg, #00a023 0%, #764ba2 100%);
+  color: white;
+  padding: 25px;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+}
+.lessfancy {
+  background: linear-gradient(135deg, #00a023 0%, #764ba2 100%);
+  color: white;
+  padding: 1px 1px 1px 1px;
+  border-radius: 5px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  margin: 20px 600px 20px 600px;
+  transition: transform 0.3s ease;
+}
+h1 {
+  text-align: center;
+}
+.btn {
+  display: inline-block;
+  background-color: #00ca22;
+  color: white;
+  padding: 12px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.5s ease;
+}
+.btn:hover {
+  background-color: #b92929;
+}
+.button-container {
+  text-align: right;
+}
+
+.bold {
+  font-weight: 800;
+}
+
+.lora {
+  font-family: 'Lora', serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  color: white;
+}
+/*textwrapper*/
+/*
+@media screen and (width >= 600px) 
+{
+  .wrapper {
+    display: flex;
+  }
+
+  .col1 {
+    flex: 1;
+    margin-right: 5%;
+  }
+/*media queries*/
+
+/*flexbox*/
+.container {
+  display: flex;
+}
+
+.item {
+  flex: 1;
+}
