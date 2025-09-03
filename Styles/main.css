@@ -49,6 +49,13 @@ p {
 h1 {
   text-align: center;
 }
+h1 {
+  font-family: 'Lora', serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  color: rgb(255, 255, 255);
+}
 .btn {
   display: inline-block;
   background-color: #00ca22;
