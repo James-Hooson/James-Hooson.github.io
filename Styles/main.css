@@ -8,8 +8,9 @@
   font-optical-sizing: auto;
   font-weight: 800;
   font-style: normal;
-  color: rgb(29, 23, 121);
+  color: white;
 }
+
 body {
   background-image: url('https://www.datocms-assets.com/132613/1724440968-creditgreenpeace-greatbearrainforest-spruceinterior-2.jpg?w=1200');
   background-size: cover;
@@ -27,7 +28,7 @@ p {
 p {
   text-align: center;
 }
-
+/*boxes*/
 .fancy-box {
   background: linear-gradient(135deg, #00a023 0%, #764ba2 100%);
   color: white;
@@ -56,6 +57,7 @@ h1 {
   font-style: normal;
   color: rgb(255, 255, 255);
 }
+/*buttons*/
 .btn {
   display: inline-block;
   background-color: #00ca22;
@@ -69,17 +71,6 @@ h1 {
   background-color: #b92929;
 }
 .button-container {
-  text-align: right;
+  text-align: center;
 }
-
-.bold {
-  font-weight: 800;
-}
-
-.lora {
-  font-family: 'Lora', serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  color: white;
-}
+/*^buttons^*/
