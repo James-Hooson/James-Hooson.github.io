@@ -1,5 +1,55 @@
 /*media quries are the worst*/
 
+
+/* Mobile First Base Styles (320px+) */
+.home-page h1 {
+  font-size: 24px; 
+  padding: 10px 15px; 
+  margin: 10px; 
+  box-sizing: border-box; 
+  width: calc(100% - 20px); 
+  max-width: none; 
+  word-wrap: break-word; 
+  text-align: center;
+}
+.home-page p {
+  font-size: 18px; /
+  padding: 0 15px;
+}
+
+.research-page .container {
+  margin: 10px;
+  flex-direction: column; 
+  gap: 15px;
+}
+
+.research-page .container img {
+  width: 100%;
+  max-width: 300px;
+}
+
+.research-page h2, .research-page p {
+  width: 95%;
+  font-size: 18px;
+  padding: 8px;
+}
+
+.simplebox, .simplebox2 {
+  width: 90%;
+  margin: 20px auto;
+  padding: 15px;
+  font-size: 16px;
+}
+
+.simplebox3 {
+  width: 95%;
+  margin: 20px auto;
+}
+
+.centered-image {
+  width: 90%;
+  max-width: 300px;
+}
 /* Small tablets and large phones (576px+) */
 @media only screen and (min-width: 576px) {
   .home-page h1 {
