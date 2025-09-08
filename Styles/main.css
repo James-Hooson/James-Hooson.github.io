@@ -1,4 +1,4 @@
-/*media quries are the worst*/
+/*media quries have been slain by clamp*/
 
 /*general Rules*/
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,700;0,800;1,400;1,700;1,800&display=swap');
@@ -24,11 +24,13 @@ body {
   align-items: center;
   gap: clamp(10px, 2vw, 20px);
   margin: clamp(10px, 3vw, 20px) auto;
-  max-width: fit-content;
+  max-width: 600px;
   flex-direction: column;
   background-color: #ccd5ae;
   border-radius: 10px;
   padding: clamp(15px, 2vw, 20px);
+  min-width: 300px;
+  gap: clamp(2px, 1vw, 5px);
 }
 
 .container img {
@@ -83,4 +85,8 @@ body {
   display: block;
   text-align: center;
   box-sizing: border-box;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  font-size: clamp(16px, 3.5vw, 18px);
 }
