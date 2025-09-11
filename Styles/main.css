@@ -24,7 +24,7 @@ body {
   align-items: center;
   gap: clamp(10px, 2vw, 20px);
   margin: clamp(10px, 3vw, 20px) auto;
-  max-width: 600px;
+  max-width: 900px;
   flex-direction: column;
   background-color: #ccd5ae;
   border-radius: 10px;
@@ -53,7 +53,7 @@ body {
 /*buttons*/
 .btn {
   display: inline-block;
-  background-color: #ccd5ae;
+  background-color: #588157;
   color: #000000;
   padding: clamp(10px, 2vw, 12px) clamp(20px, 5vw, 30px);
   text-decoration: none;
@@ -89,4 +89,25 @@ body {
   margin-right: auto;
   position: relative;
   font-size: clamp(16px, 3.5vw, 18px);
+}
+
+/* codestyle */
+.code-container {
+  background: #2d2d2d;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.code-container pre {
+  margin: 0;
+  overflow-x: auto;
+}
+
+.code-container code {
+  color: #f8f8f2;
+  font-family: 'Fira Code', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
 }
