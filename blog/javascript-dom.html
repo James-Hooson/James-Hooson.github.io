@@ -47,8 +47,7 @@
     }
 }</code></pre></div></p>
 
-<p class = simplebox>With the above code, we can see how we would make coffee! We can also see the order of things, we go to make coffee, if we have coffee beans, then grind some beans, if we have a coffee filter, then brew the coffee! However there are some exceptions, also known as "else". If coffee beans are not availible, we would get a message saying "go to the store" or if the filters were not availible, we would get "buy filters".
-  This is the fundamentals of Control Flows. But what if we want a repeating action? That is where Loops come in!
+<p class = simplebox>With the above code, we can see how we would make coffee! We can also see the order of things, we go to make coffee, if we have coffee beans, then grind some beans, if we have a coffee filter, then brew the coffee! However there are some exceptions, also known as "else". If coffee beans are not available, we would get a message saying "go to the store" or if the filters were not available, we would get "buy filters". This is the fundamentals of Control Flows. But what if we want a repeating action? That is where Loops come in! 
   Using the Coffee analogy, it tastes a bit bitter. Some sugar sure would be nice!
 <div class="code-container"><pre><code>let sweetness = 0;
 let targetSweetness = 5;
@@ -60,12 +59,12 @@ while (sweetness < targetSweetness) {
 console.log("Perfect! Coffee is ready.");}</code></pre></div></p>
 
 <p class = simplebox> As we can see, this loop will repeat "addsugarcube" until the desired sweetness has been achieved! Loops are a fantastic way to repeat something until the set conditions are met.
-  However you might be asking "what about the other things? Arrays? Objects?". Well i can tell you I am no fan of Arrays! and it took me some time to get my head around it.
+  However you might be asking "what about the other things? Arrays? Objects?". Well I can tell you I am no fan of Arrays! and it took me some time to get my head around it.
 Arrays are best thought of like a Numbered list. Where you would want items in a order listed with numbers. 
 <div class="code-container"><pre><code>let shoppingList = ["milk", "bread", "eggs", "chocolate"];</code></pre></div></p>
 <p class = simplebox> We can see here a list of items. You might be thinking "I thought this had to do with numbers?", and well, it does!
   In programming with Javascript, we count items differntly. Instead of Milk = 1, Bread =2, Eggs =3, Chocolate =4, We count from 0.
-  This would then make the list look like this, Milk = 0, Bread = 1, Eggs = 2 Chocolate = 3. This is our numbered list! And we would "access" item froms this list as follows.
+  This would then make the list look like this, Milk = 0, Bread = 1, Eggs = 2 Chocolate = 3. This is our numbered list! And we would "access" items from this list as follows.
 </p>
     <div class="code-container"><pre><code>let shoppingList = ["milk", "bread", "eggs", "chocolate"];
       console.log(shoppingList[0]);
@@ -87,25 +86,23 @@ console.log(person.city);
 
 person.job = "Web Developer";
     </code></pre></div>
-    <p class = simplebox>Objects are another way to store information. Though not to be confused wit harrays as their application is very differnt. 
-      From the above code, we can see some information on a person, we have created an "object" called Person, and that "Person" has several properties, like a name, age, city and hobbies. Funnily enough those hobbies are sitting in an Array!
-If we were to access information about this person, we would use console.log(person."whatever we wanted to know"). So long as whatever we wanted to know is a name, age, city or hobbies! Now that last line of code it to add things to our Object. Sarah is a Web Developer. so to add that information we would need to name the object, which is "person", follow by a "." and then what we want to name the next item, in this case "job" and that would "=" whatever we put the job as, which again in this scenario is "web developer"
-    </p>
+    <p class = simplebox>Objects are another way to store information. Though not to be confused with arrays as their application is very different. From the above code, we can see some information on a person, we have created an "object" called Person, and that "Person" has several properties, like a name, age, city and hobbies. Funnily enough those hobbies are sitting in an Array! If we were to access information about this person, we would use console.log(person."whatever we wanted to know"). 
+      So long as whatever we wanted to know is a name, age, city or hobbies! Now that last line of code is to add things to our Object. Sarah is a Web Developer. so to add that information we would need to name the object, which is "person", followed by a "." and then what we want to name the next item, in this case "job" and that would "=" whatever we put the job as, which again in this scenario is "web developer" </p>
 <h1 class = container>When to add either an Object or Array?</h1>
     <p class = simplebox>We use arrays to list items of a similar group. For example fruits! If we had bananas, apples and grapes, we would use an array. If we wanted a variety of information with multiple properties we would use Objects, say if we had a Cat named Momo, his Breed was Shorthair, and his Age is 3. (Momo is indeed my cat)</p>
   <h1 class = container>What the Function?!</h3>
-  <p class = simplebox>Functions are essentially an automated service that you make! It can perfom specific tasks for you, instead of potentialyl having to wrote the same code over and over and over, You could create a function and call () it whenever you need!
+  <p class = simplebox>Functions are essentially an automated service that you make! It can perform specific tasks for you, instead of potentially having to write the same code over and over and over, You could create a function and call () it whenever you need!
     <div class="code-container"><pre><code>function greetUser(name, timeOfDay) 
       {let greeting = `Good ${timeOfDay}, ${name}! Welcome back!`;
     console.log(greeting);
     return greeting;}
     </code></pre></div>
   </p> <p class = simplebox> We can see in the above codebox a little function that would greet a user, with specifics of time of day, the users name and a greeting!
-    This is a simple example of how a function functions! What makes functions so amazing? Well they are very reusable, Help keep things organized, other developers can easily see whats happening and if something odes go wrong, you only need to fix one small section!
+    This is a simple example of how a function functions! What makes functions so amazing? Well they are very reusable, Help keep things organized, other developers can easily see what's happening and if something odes go wrong, you only need to fix one small section!
   </p>
 <h1 class = container>Getting DOM'ed</h1>
-<p class =simplebox>Now one thing we haven't mentioned it the DOM (Document Object Model) which is a programming interface that represents your HTML document as a tree structure that Javascript can interact with.
-It is created by the browser when you HTML page loads and it takes the tags and creates the structure. Thinks of it like the HTML is a blueprint, the DOM is the living strucure. Javascript is used to manipulate the DOM in realtime.
+<p class =simplebox>Now one thing we haven't mentioned is the DOM (Document Object Model) which is a programming interface that represents your HTML document as a tree structure that Javascript can interact with.
+It is created by the browser when you HTML page loads and it takes the tags and creates the structure. Think of it like the HTML is a blueprint, the DOM is the living structure. Javascript is used to manipulate the DOM in realtime.
 This is a powerful tool as being able to remove/add/modify parts of the page can be very useful. Any changes are immediate and the DOM handles all our Javascript interactions that we have talked about.
 </p>
   </body>
