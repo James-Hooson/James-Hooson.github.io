@@ -71,6 +71,11 @@ body {
 }
 
 .button-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  flex-wrap: wrap;
   text-align: center;
 }
 
@@ -89,6 +94,11 @@ body {
   margin-right: auto;
   position: relative;
   font-size: clamp(16px, 3.5vw, 18px);
+}
+
+.simpleboxhtml {
+  display: block;
+  margin-bottom: 10px;
 }
 
 /* codestyle */
