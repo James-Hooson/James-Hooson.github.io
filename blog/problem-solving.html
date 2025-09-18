@@ -1,0 +1,127 @@
+<html class = 'lora'>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="../Styles/main.css" rel="stylesheet" type="text/css" />
+    <a href="../index.html" class="btn">Home</a>
+    <title>Problem Solving</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Problem solving</h1>
+      <h1 class="simplebox">A time I was blocked on a simple problem</h1>
+      <p class="simplebox">
+        The problem I faced is one of my own design. When learning about slice
+        and splice for my method research I would go through learning what each
+        method did. The problem was that I would try to get through and finish
+        my work and in doing so would gingerly skim through some of the
+        descriptions. This caused me to not notice that when running the test,
+        it gave results that actually didn't align with what I was trying to do. See
+        the below my problematic code.
+      </p>
+      <div class="code-container">
+        <pre><code>
+  let fruits = ['banana', 'apple', 'orange', 'kiwi', 'grape']
+
+let sliced = fruits.slice(1, 3,)
+console.log(sliced) //[ 'apple','orange']
+console.log(fruits) //[ 'banana', 'apple', 'orange', 'kiwi', 'grape']
+</code></pre>
+      </div>
+      <p class="simplebox">
+        As seen above you can see my original slice that has the parameters of
+        taking 1 and 3 and removing them when calling for a slice. When
+        returned, I received 2 fruits. I didn't even think twice as I had passed
+        the test in that the function worked. Those with a good eye may
+        have noticed I asked for 2 changes, and it returned 2, However what I
+        didn't notice is the fruits that were returned, were not the fruits in
+        the array I wanted. I wanted 1 and 3, which should of been 'apple' and
+        'kiwi'. This was thankfully pointed out to me by a colleague so I went
+        through and wondered why.
+      </p>
+      <h1 class="simplebox">How did I solve it?</h1>
+
+      <p class="simplebox">
+        The problem here was not that the function wasn’t working so to say, but
+        it wasn’t working how I thought or intended it to work. So I went
+        through the rubber ducky method, which involves going through and
+        talking about each step as though talking to a “rubber duck”. This can
+        help you identify mistakes, however for this issue the mistake wasn't
+        the problem solving method, as I talked myself through it I found no
+        issue. So I went to the next problem solving method, using an LLM to
+        explain to me why it isn't working. I was informed that although I did
+        indeed ask for 1 & 3 to be sliced, the function does not work that way,
+        and in fact works by taking items 1 through 3, but not including 3. So
+        while I was getting 2 fruits back, one of those fruits was number 2,
+        when my intention was to remove number 3. This made me realise my
+        mistake, that I should take my time when reading through material to
+        ensure I'm understanding the details.
+      </p>
+
+      <h1>Can I use problem-solving techniques?</h1>
+
+      <h1>Pseudocode</h1>
+      <p class="simplebox">
+        I feel comfortable using pseudocode, as it is a technique I use in my
+        head generally anyway when going through a problem, breaking it down to
+        smaller components and what I'm trying to achieve with each step. Trying
+        something I am comfortable (and already have some plan) to try
+        something, to give it a crack and discover how it should work and
+        function. 
+      </p>
+      <h1>Rubber ducky method</h1>
+
+      <p class="simplebox">
+         As in the example above I feel comfortable talking myself
+        through the problem to see if I catch something out.
+      </p>
+
+        <h1>Reading error messages</h1> 
+       <p class="simplebox">
+       I feel pretty comfortable although I do need to improve my
+        syntax and what each word entails. With my own experience of reading
+        error messages largely stemming from video games and overloading them
+        with mods.
+      </p>
+
+        <h1>Console.logging</h1> 
+        <p class="simplebox">
+         I think I could do some more practice with
+        console.log, but I feel pretty comfortable using it.
+      </p>
+
+          <h1>Googling</h1>
+
+          <p class="simplebox">
+            A timeless classic, when in doubt, google! But always checking how I google, where
+        the information is coming from and is it applicable to my situation.
+      </p> 
+
+        <h1>Asking your peers for help</h1>
+
+        <p class="simplebox"> 
+          I have already asked for help from my peers,
+        and with our homegroup we have organized in previous weeks a weekly
+        meetup to discuss our confusions or problems we are experiencing, and to
+        get guidance from our peers.
+      </p>
+
+        <h1>Asking coaches for help</h1>
+
+         <p class="simplebox"> 
+          I have yet to really utilize this, but I do feel comfortable that if a problem would
+        occur that any of the previous methods could not solve or assist in, I
+        would happily go to a coach for assistance.
+      </p>
+
+        <h1>Improving your process with reflection</h1> 
+
+         <p class="simplebox">
+          I do mentally reflect on how I made a mistake and what I
+        could do to ensure I cover my bases to improve in the future.
+      </p>
+      </p>
+    </div>
+  </body>
+  <footer>James Hooson 2025</footer>
+</html>
