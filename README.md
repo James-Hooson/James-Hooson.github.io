@@ -1,0 +1,1 @@
+This was the first blog I made, during my first 6 weeks at **DevAcademy Aotearoa** using HTML, CSS and classic JS. This was where we had to put our learnings on the basics of coding and Human Skills. 
